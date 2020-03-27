@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,600,700&display=swap");
+
+$enable-responsive-font-sizes: true !important;
+
+html,
+body {
+  height: 100%;
+}
+
+.site {
+  height: auto;
+  min-height: 100%;
+}
+
+.content {
+  padding-bottom: 50px;
+}
+
+*::selection {
+  background-color: #c81e17;
+  color: white;
+}
+
+.nounderline {
+  text-decoration: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $heading;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+a {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  color: #e73a33;
+}
+
+.underline {
+  background-image: linear-gradient(#e73a33, #e73a33);
+  background-repeat: no-repeat;
+  background-size: 100% 0.15em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: #eee;
+  height: 50px;
+  margin-top: -50px;
+  padding-top: 15px;
+}
+
+.brand {
+  font-family: $heading;
+  font-weight: 700;
+}
+
+.heading-link {
+  color: #000;
+
+  &:hover {
+    color: #000;
+  }
+}
