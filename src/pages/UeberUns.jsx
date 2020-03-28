@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Info from "../components/Info";
 
-class UberUns extends Component {
+class UeberUns extends Component {
   render() {
     return (
       <>
@@ -11,4 +11,4 @@ class UberUns extends Component {
   }
 }
 
-export default UberUns;
+export default UeberUns;

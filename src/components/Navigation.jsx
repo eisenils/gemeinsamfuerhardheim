@@ -15,8 +15,8 @@ class Navigation extends Component {
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
               <Nav.Link href="/">Startseite</Nav.Link>
+              <Nav.Link href="/corona">Corona Virus</Nav.Link>
               <Nav.Link href="/ueber-uns">Über uns</Nav.Link>
-              <Nav.Link href="/impressum">Impressum</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

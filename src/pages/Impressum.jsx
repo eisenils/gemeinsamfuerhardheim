@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class Impressum extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container mt-3">
         <div className="row">
           <div className="col-12">
             <h1>
@@ -58,8 +58,31 @@ class Impressum extends Component {
               <span className="underline">Bilder</span>
             </h3>
             <p>
-              Die Verwertungsrechte (©) aller Bilder auf dieser Website - sofern nicht anders
+              Die Verwertungsrechte (&copy;) aller Bilder auf dieser Website - sofern nicht anders
               gekennzeichnet - liegen bei den Hilfsorganisationen der Gemeinde Hardheim
+            </p>
+            <h3>
+              <span className="underline">Texte</span>
+            </h3>
+            <p>
+              Teilweise stammen verwendete Texte von dem{" "}
+              <a href="https://www.zusammengegencorona.de/informieren/" className="nounderline">
+                Bundesministerium für Gesundheit
+              </a>{" "}
+              und der{" "}
+              <a
+                href="https://www.pgdiakonie.de/coronavirus-tipps-zum-schutz/"
+                className="nounderline"
+              >
+                Johannesstift Diakonie
+              </a>
+              .
+            </p>
+            <p>
+              Gestaltung:{" "}
+              <a href="http://ne-dsgn.de" className="nounderline">
+                NE Design
+              </a>
             </p>
           </div>
         </div>

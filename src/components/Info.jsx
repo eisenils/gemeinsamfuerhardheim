@@ -4,10 +4,12 @@ import logo from "../img/logo.jpg";
 class Info extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container mt-3">
         <div className="row">
           <div className="col-sm-8">
-            <h1>Über uns</h1>
+            <h1>
+              <span className="underline">Über uns</span>
+            </h1>
             <p>
               Gemeinsam für Hardheim ist ein Zusammenschluss der drei Rettungsorganisationen der
               Gemeinde Hardheim. Dies sind die DLRG OG Hardheim e.V., DRK Ortverein Hardheim und die
@@ -26,7 +28,7 @@ class Info extends Component {
           <div className="col-sm-4">
             <h2>
               <span className="underline">
-                <a href="http://www.feuerwehr-hardheim.de/" className="nounderline heading-link">
+                <a href="https://hardheim.dlrg.de/" className="nounderline heading-link">
                   DLRG Hardheim e.V.
                 </a>
               </span>
@@ -46,7 +48,7 @@ class Info extends Component {
           <div className="col-sm-4">
             <h2>
               <span className="underline">
-                <a href="http://www.feuerwehr-hardheim.de/" className="nounderline heading-link">
+                <a href="https://www.drk-hardheim.de/" className="nounderline heading-link">
                   DRK Hardheim
                 </a>
               </span>
