@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <Navigation fixed="top" />
-      <Router>
+      <Router primary={false}>
         <Home path="/" />
         <UeberUns path="/ueber-uns" />
         <Corona path="corona" />
