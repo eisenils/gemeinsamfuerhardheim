@@ -5,7 +5,7 @@ class Einkaufshelfer extends Component {
   render() {
     return (
       <>
-        <div className="container">
+        <div className="container mt-3">
           <div className="row">
             <div className="col-12">
               <h2>
@@ -52,23 +52,25 @@ class Einkaufshelfer extends Component {
               <h3>
                 <span className="underline">So funktioniert's</span>
               </h3>
-              <ol>
-                <li>
-                  Sie rufen per Telefon <a href="tel:+496281522235">(06281 / 5222-35)</a> an und
-                  teilen den Mitarbeiter des DRK Ihre Adresse und Einkaufsliste mit
-                </li>
-                <li>Wir werden informiert</li>
-                <li>Der Einkaufshelfer kauft ein</li>
-                <li>Der Einkaufshelfer stellt Einkäufe vor die Haustür und klingelt</li>
-                <li>
-                  Der Einkaufshelfer wartet mit einem Mindestabstand von 3m. Die wohnhafte Person
-                  nimmt Einkäufe und legt das Geld vor die Haustür
-                </li>
-                <li>
-                  Die Haustür wird geschlossen und danach erst wird das Geld durch den
-                  Einkaufshelfer genommen.
-                </li>
-              </ol>
+              <p>
+                <ol>
+                  <li>
+                    Sie rufen per Telefon <a href="tel:+496281522235">(06281 / 5222-35)</a> an und
+                    teilen den Mitarbeiter des DRK Ihre Adresse und Einkaufsliste mit
+                  </li>
+                  <li>Wir werden informiert</li>
+                  <li>Der Einkaufshelfer kauft ein</li>
+                  <li>Der Einkaufshelfer stellt Einkäufe vor die Haustür und klingelt</li>
+                  <li>
+                    Der Einkaufshelfer wartet mit einem Mindestabstand von 3m. Die wohnhafte Person
+                    nimmt Einkäufe und legt das Geld vor die Haustür
+                  </li>
+                  <li>
+                    Die Haustür wird geschlossen und danach erst wird das Geld durch den
+                    Einkaufshelfer genommen.
+                  </li>
+                </ol>
+              </p>
             </div>
             <div className="col-12">
               <h3>
