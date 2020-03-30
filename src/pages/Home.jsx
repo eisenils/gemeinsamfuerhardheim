@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import Einkaufshelfer from "../components/Einkaufshelfer";
-import Hero from "../components/Hero";
+import Slider from "../components/Slider";
 
 class Home extends Component {
   render() {
     return (
       <>
-        <Hero />
+        <Slider />
         <Einkaufshelfer />
       </>
     );
