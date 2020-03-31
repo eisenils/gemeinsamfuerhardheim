@@ -1,17 +1,14 @@
 import React, { Component } from "react";
 import Faq from "../components/Faq";
+import Header from "../components/Header";
 
 class Corona extends Component {
   render() {
     return (
       <>
+        <Header title="Corona Virus" />
         <div className="container mt-3">
           <div className="row">
-            <div className="col-12">
-              <h1>
-                <span className="underline">Corona Virus</span>
-              </h1>
-            </div>
             <div className="col-sm-6">
               <p>
                 Von China in die Welt. Seit Anfang Januar diesen Jahres befindet sich das Corona
@@ -26,7 +23,7 @@ class Corona extends Component {
               <img
                 src="https://images.unsplash.com/photo-1583324113626-70df0f4deaab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2089&q=80"
                 alt="SARS-CoV2"
-                style={{ width: "100%", height: "auto" }}
+                style={{ width: "100%", height: "auto", borderRadius: "3%" }}
               />
               <p className="text-center">
                 Foto:
