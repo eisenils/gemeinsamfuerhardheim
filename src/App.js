@@ -7,7 +7,7 @@ import Corona from "./pages/Corona";
 import Impressum from "./pages/Impressum";
 import { Router } from "@reach/router";
 import Footer from "./components/Footer";
-import Slider from "./components/Slider";
+import Einkaufshelfer from "./pages/Einkaufshelfer";
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <UeberUns path="/ueber-uns" />
         <Corona path="corona" />
         <Impressum path="/impressum" />
-        <Slider path="/slider" />
+        <Einkaufshelfer path="/einkaufshelfer" />
       </Router>
       <ScrollToTop />
       <Footer />
