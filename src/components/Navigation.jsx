@@ -21,7 +21,13 @@ class Navigation extends Component {
   render() {
     return (
       <>
-        <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+        <Navbar
+          collapseOnSelect
+          expand="lg"
+          bg="light"
+          variant="light"
+          style={{ fontSize: "1.2rem" }}
+        >
           <Link to="/">
             <Navbar.Brand className="brand">Gemeinsam für Hardheim</Navbar.Brand>
           </Link>
@@ -31,6 +37,11 @@ class Navigation extends Component {
               <Nav.Link>
                 <MenuItem to="/" className="nounderline">
                   Startseite
+                </MenuItem>
+              </Nav.Link>
+              <Nav.Link>
+                <MenuItem to="/einkaufshelfer" className="nounderline">
+                  Einkaufshelfer
                 </MenuItem>
               </Nav.Link>
               <Nav.Link>
@@ -45,7 +56,7 @@ class Navigation extends Component {
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
-          <Nav>
+          <Nav className="d-none d-lg-flex">
             <Nav.Link disabled style={{ color: "#aaa" }}>
               <i>#gemeinsamfürhardheim</i>
             </Nav.Link>
