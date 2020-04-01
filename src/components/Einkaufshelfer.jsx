@@ -8,12 +8,9 @@ class Einkaufshelfer extends Component {
         <div className="container mt-3">
           <div className="row">
             <div className="col-12">
-              <h2>
-                <span className="underline">Einkaufshelfer</span>
-              </h2>
               <p>
-                Die Hilfsorganisationen der Gemeinde Hardheim richten für Personen der Risikogruppen
-                und Senioren einen Einkaufsservice ein.
+                Die Hilfsorganisationen der Gemeinde Hardheim haben für Personen der Risikogruppen
+                und Senioren einen Einkaufsservice eingerichtet.
               </p>
             </div>
           </div>
