@@ -22,7 +22,7 @@ class Slider extends Component {
                 backgroundImage: `url(
                   "${Header}"
                 )`,
-                zIndex: "-1"
+                backgroundPosition: "50% 30%"
               }}
             />
             <Carousel.Caption>
