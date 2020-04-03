@@ -10,7 +10,8 @@ const MenuItem = props => (
     getProps={({ isCurrent }) => {
       return {
         style: {
-          color: isCurrent ? "#e73a33" : "#333"
+          color: isCurrent ? "#e73a33" : "#333",
+          padding: "0.5rem"
         }
       };
     }}
@@ -34,50 +35,38 @@ class Navigation extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <Nav.Link>
-                <MenuItem to="/" className="nounderline">
-                  Startseite
-                </MenuItem>
-              </Nav.Link>
-              <Nav.Link>
-                <MenuItem to="/einkaufshelfer" className="nounderline">
-                  Einkaufshelfer
-                </MenuItem>
-              </Nav.Link>
-              <Nav.Link>
-                <MenuItem to="/corona" className="nounderline">
-                  Corona Virus
-                </MenuItem>
-              </Nav.Link>
-              <Nav.Link>
-                <MenuItem to="/ueber-uns" className="nounderline">
-                  Über uns
-                </MenuItem>
-              </Nav.Link>
+              <MenuItem to="/" className="nounderline">
+                Startseite
+              </MenuItem>
+              <MenuItem to="/einkaufshelfer" className="nounderline">
+                Einkaufshelfer
+              </MenuItem>
+              <MenuItem to="/corona" className="nounderline">
+                Corona Virus
+              </MenuItem>
+              <MenuItem to="/ueber-uns" className="nounderline">
+                Über uns
+              </MenuItem>
             </Nav>
           </Navbar.Collapse>
           <Nav className="d-none d-lg-flex">
             <Nav.Link disabled style={{ color: "#aaa" }}>
               <i>#gemeinsamfürhardheim</i>
             </Nav.Link>
-            <Nav.Link>
-              <a
-                href="https://www.facebook.com/Hardheim112-425450161608511/"
-                className="nounderline"
-                style={{ color: "#333" }}
-              >
-                <FaFacebook />
-              </a>
-            </Nav.Link>
-            <Nav.Link>
-              <a
-                href="https://www.instagram.com/hardheim112/"
-                className="nounderline"
-                style={{ color: "#333" }}
-              >
-                <FaInstagram />
-              </a>
-            </Nav.Link>
+            <a
+              href="https://www.facebook.com/Hardheim112-425450161608511/"
+              className="nounderline"
+              style={{ color: "#333", padding: "0.5rem" }}
+            >
+              <FaFacebook />
+            </a>
+            <a
+              href="https://www.instagram.com/hardheim112/"
+              className="nounderline"
+              style={{ color: "#333", padding: "0.5rem" }}
+            >
+              <FaInstagram />
+            </a>
           </Nav>
         </Navbar>
       </>
