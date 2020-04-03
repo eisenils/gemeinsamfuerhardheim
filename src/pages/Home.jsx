@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Slider from "../components/Slider";
 import logo from "../img/logo.jpg";
+import Notification from "../components/Notification";
 
 class Home extends Component {
   render() {
@@ -9,7 +10,10 @@ class Home extends Component {
         <Slider />
         <div className="container mt-3">
           <div className="row">
-            <div className="col text-center">
+            <div className="col-12">
+              <Notification />
+            </div>
+            <div className="col-12 text-center">
               <h2>
                 <span className="underline">Herzlich Willkommen</span>
               </h2>
