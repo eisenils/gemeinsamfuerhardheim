@@ -83,6 +83,11 @@ a {
   }
 }
 
+p.subheader {
+  font-family: $subheading;
+  font-size: 2rem;
+}
+
 .slider {
   height: 450px;
   background-image: url("../img/GfH_Header.jpg");
@@ -116,4 +121,14 @@ a {
   to {
     opacity: 1;
   }
+}
+
+div.card-header {
+  font-family: $heading;
+  font-size: 1.2rem;
+}
+
+div.card-body {
+  font-family: $heading;
+  font-size: 1.2rem;
 }

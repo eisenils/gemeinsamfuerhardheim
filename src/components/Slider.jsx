@@ -11,7 +11,10 @@ class Slider extends Component {
             <div className="d-block w-100 slider" />
             <Carousel.Caption>
               <h1>Gemeinsam für Hardheim</h1>
-              <p>Wir für dich! Du für uns?</p>
+              <p className="subheader">
+                Wir für <span style={{ color: "#e73a33" }}>dich</span>! Du mit{" "}
+                <span style={{ color: "#e73a33" }}>uns</span>?
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -27,7 +30,10 @@ class Slider extends Component {
             />
             <Carousel.Caption>
               <h1>Ehrenamt</h1>
-              <p>Zusammen eine starke Gemeinschaft</p>
+              <p className="subheader">
+                <span style={{ color: "#e73a33" }}>Zusammen</span> eine starke{" "}
+                <span style={{ color: "#e73a33" }}>Gemeinschaft</span>!
+              </p>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
