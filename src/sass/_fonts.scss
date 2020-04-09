@@ -1,29 +1,21 @@
 @font-face {
-    font-family: 'Futura Medium';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Futura Medium'), local('FuturaMedium'),
-        /* Super Modern Browsers */
-        url('../fonts/Futura-Medium.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('../fonts/Futura-Medium.woff') format('woff'),
-        /* Safari, Android, iOS */
-        url('../fonts/Futura-Medium.ttf') format('truetype'),
-        /* Legacy iOS */
-        url('../fonts/Futura-Medium.svg') format('svg');
+  font-family: "Futura Medium";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Futura Medium"), local("FuturaMedium"),
+    /* Super Modern Browsers */ url("../fonts/Futura-Medium.woff2") format("woff2"),
+    /* Modern Browsers */ url("../fonts/Futura-Medium.woff") format("woff"),
+    /* Safari, Android, iOS */ url("../fonts/Futura-Medium.ttf") format("truetype"),
+    /* Legacy iOS */ url("../fonts/Futura-Medium.svg#Futura-Medium") format("svg");
 }
 
 @font-face {
-    font-family: 'Futura Medium Italic';
-    font-style: italic;
-    font-weight: 400;
-    src: local('Futura Medium Italic'), local('FuturaMediumItalic'),
-        /* Super Modern Browsers */
-        url('../fonts/Futura-MediumItalic.woff2') format('woff2'),
-        /* Modern Browsers */
-        url('../fonts/Futura-MediumItalic.woff') format('woff'),
-        /* Safari, Android, iOS */
-        url('../fonts/Futura-MediumItalic.ttf') format('truetype'),
-        /* Legacy iOS */
-        url('../fonts/Futura-MediumItalic.svg') format('svg');
+  font-family: "Futura Medium Italic";
+  font-style: italic;
+  font-weight: 400;
+  src: local("Futura Medium Italic"), local("FuturaMediumItalic"),
+    /* Super Modern Browsers */ url("../fonts/Futura-MediumItalic.woff2") format("woff2"),
+    /* Modern Browsers */ url("../fonts/Futura-MediumItalic.woff") format("woff"),
+    /* Safari, Android, iOS */ url("../fonts/Futura-MediumItalic.ttf") format("truetype"),
+    /* Legacy iOS */ url("../fonts/Futura-MediumItalic.svg#Futura-MediumItalic") format("svg");
 }
