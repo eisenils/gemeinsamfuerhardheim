@@ -4,15 +4,15 @@ import Nav from "react-bootstrap/Nav";
 import { Link } from "@reach/router";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 
-const MenuItem = props => (
+const MenuItem = (props) => (
   <Link
     {...props}
     getProps={({ isCurrent }) => {
       return {
         style: {
           color: isCurrent ? "#e73a33" : "#333",
-          padding: "0.5rem"
-        }
+          padding: "0.5rem",
+        },
       };
     }}
   />
@@ -49,7 +49,7 @@ class Navigation extends Component {
               </MenuItem>
             </Nav>
           </Navbar.Collapse>
-          <Nav className="d-none d-lg-flex">
+          <Nav className="d-none d-xl-flex">
             <Nav.Link disabled style={{ color: "#aaa" }}>
               <i>#gemeinsamfürhardheim</i>
             </Nav.Link>
