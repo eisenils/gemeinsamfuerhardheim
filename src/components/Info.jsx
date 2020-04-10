@@ -63,13 +63,13 @@ class Info extends Component {
               alarmiert werden.
               <br />
               Wir kommen bei
-              <ul>
-                <li>Verkehrsunfällen</li>
-                <li>zur Unterstützung des Rettungsdienstes</li>
-                <li>bei Brandeinsätzen der Freiwilligen Feuerwehr</li>
-              </ul>
-              zum Einsatz.
             </p>
+            <ul className="listing">
+              <li>Verkehrsunfällen</li>
+              <li>zur Unterstützung des Rettungsdienstes</li>
+              <li>bei Brandeinsätzen der Freiwilligen Feuerwehr</li>
+            </ul>
+            <p>zum Einsatz.</p>
           </div>
           <div className="col-sm-4">
             <h2>

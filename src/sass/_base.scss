@@ -48,6 +48,12 @@ a {
   color: $primary;
 }
 
+.listing {
+  font-family: $font-stack;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
 .underline {
   background-image: linear-gradient($primary, $primary);
   background-repeat: no-repeat;
