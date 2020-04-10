@@ -66,13 +66,16 @@ class Impressum extends Component {
               </h3>
               <p>
                 Teilweise stammen verwendete Texte von dem{" "}
-                <a href="https://www.zusammengegencorona.de/informieren/" className="nounderline">
+                <a
+                  href="https://www.zusammengegencorona.de/informieren/"
+                  className="text-decoration-none"
+                >
                   Bundesministerium für Gesundheit
                 </a>{" "}
                 und der{" "}
                 <a
                   href="https://www.pgdiakonie.de/coronavirus-tipps-zum-schutz/"
-                  className="nounderline"
+                  className="text-decoration-none"
                 >
                   Johannesstift Diakonie
                 </a>
@@ -80,7 +83,7 @@ class Impressum extends Component {
               </p>
               <p>
                 Gestaltung:{" "}
-                <a href="http://ne-dsgn.de" className="nounderline">
+                <a href="http://ne-dsgn.de" className="text-decoration-none">
                   NE Design
                 </a>
               </p>

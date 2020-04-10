@@ -23,13 +23,13 @@ class Einkaufshelfer extends Component {
                 <FaEnvelope className="mr-2" />
                 <a
                   href="mailto:hilfe@drk-buchen.de?subject=Anfrage Einkaufshelfer"
-                  className="nounderline"
+                  className="text-decoration-none"
                 >
                   hilfe@drk-buchen.de
                 </a>
                 <br />
                 <FaPhone className="mr-2" />
-                <a href="tel:+496281522235" className="nounderline">
+                <a href="tel:+496281522235" className="text-decoration-none">
                   06281 / 5222-35
                 </a>
               </p>

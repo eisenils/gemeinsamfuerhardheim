@@ -35,16 +35,16 @@ class Navigation extends Component {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="mr-auto">
-              <MenuItem to="/" className="nounderline">
+              <MenuItem to="/" className="text-decoration-none">
                 Startseite
               </MenuItem>
-              <MenuItem to="/einkaufshelfer" className="nounderline">
+              <MenuItem to="/einkaufshelfer" className="text-decoration-none">
                 Einkaufshelfer
               </MenuItem>
-              <MenuItem to="/corona" className="nounderline">
+              <MenuItem to="/corona" className="text-decoration-none">
                 Corona Virus
               </MenuItem>
-              <MenuItem to="/ueber-uns" className="nounderline">
+              <MenuItem to="/ueber-uns" className="text-decoration-none">
                 Über uns
               </MenuItem>
             </Nav>
@@ -55,14 +55,14 @@ class Navigation extends Component {
             </Nav.Link>
             <a
               href="https://www.facebook.com/Hardheim112-425450161608511/"
-              className="nounderline"
+              className="text-decoration-none"
               style={{ color: "#333", padding: "0.5rem" }}
             >
               <FaFacebook />
             </a>
             <a
               href="https://www.instagram.com/hardheim112/"
-              className="nounderline"
+              className="text-decoration-none"
               style={{ color: "#333", padding: "0.5rem" }}
             >
               <FaInstagram />

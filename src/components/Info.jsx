@@ -25,7 +25,7 @@ class Info extends Component {
           <div className="col-sm-4">
             <h2>
               <span className="underline">
-                <a href="https://hardheim.dlrg.de/" className="nounderline heading-link">
+                <a href="https://hardheim.dlrg.de/" className="text-decoration-none heading-link">
                   DLRG Hardheim e.V.
                 </a>
               </span>
@@ -45,7 +45,10 @@ class Info extends Component {
           <div className="col-sm-4">
             <h2>
               <span className="underline">
-                <a href="https://www.drk-hardheim.de/" className="nounderline heading-link">
+                <a
+                  href="https://www.drk-hardheim.de/"
+                  className="text-decoration-none heading-link"
+                >
                   DRK Hardheim
                 </a>
               </span>
@@ -71,7 +74,10 @@ class Info extends Component {
           <div className="col-sm-4">
             <h2>
               <span className="underline">
-                <a href="http://www.feuerwehr-hardheim.de/" className="nounderline heading-link">
+                <a
+                  href="http://www.feuerwehr-hardheim.de/"
+                  className="text-decoration-none heading-link"
+                >
                   Feuerwehr Hardheim
                 </a>
               </span>
