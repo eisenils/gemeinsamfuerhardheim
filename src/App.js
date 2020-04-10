@@ -6,7 +6,6 @@ import UeberUns from "./pages/UeberUns";
 import Corona from "./pages/Corona";
 import Impressum from "./pages/Impressum";
 import { Router } from "@reach/router";
-import Footer from "./components/Footer";
 import Einkaufshelfer from "./pages/Einkaufshelfer";
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -22,7 +21,6 @@ function App() {
         <Einkaufshelfer path="/einkaufshelfer" />
       </Router>
       <ScrollToTop />
-      <Footer />
     </div>
   );
 }

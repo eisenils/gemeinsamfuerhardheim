@@ -7,13 +7,19 @@ body {
   height: 100%;
 }
 
-.site {
-  height: auto;
-  min-height: 100%;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.content {
-  padding-bottom: 50px;
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App {
+  flex: 1 0 auto;
 }
 
 *::selection {
