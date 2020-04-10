@@ -27,23 +27,23 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: $heading;
+  font-family: $font-stack;
   font-weight: 700;
 }
 
 p {
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-family: $font-stack;
   line-height: 2;
   font-size: 1.2rem;
 }
 
 a {
-  font-family: "Nunito", Arial, Helvetica, sans-serif;
-  color: #e73a33;
+  font-family: $font-stack;
+  color: $primary;
 }
 
 .underline {
-  background-image: linear-gradient(#e73a33, #e73a33);
+  background-image: linear-gradient($primary, $primary);
   background-repeat: no-repeat;
   background-size: 100% 0.15em;
   background-position: 0 88%;
@@ -58,47 +58,6 @@ a {
   width: 100px;
   height: auto;
   margin-bottom: 10px;
-}
-
-.footer {
-  background-color: #eee;
-  height: 50px;
-  padding: 0px 16px;
-}
-
-.brand {
-  font-family: $heading;
-  font-weight: 700;
-}
-
-.heading-link {
-  color: #000;
-
-  &:hover {
-    color: #000;
-  }
-}
-
-p.subheader {
-  font-family: $subheading, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 2rem;
-}
-
-.slider {
-  height: 450px;
-  background-image: url("../img/GfH_Header.jpg");
-  background-position: 50% 45%;
-  background-size: cover;
-
-  &:before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 5%, rgba(255, 255, 255, 0) 60%);
-  }
 }
 
 .scroll-to-top {
@@ -117,14 +76,4 @@ p.subheader {
   to {
     opacity: 1;
   }
-}
-
-div.card-header {
-  font-family: $heading;
-  font-size: 1.2rem;
-}
-
-div.card-body {
-  font-family: $heading;
-  font-size: 1.2rem;
 }
